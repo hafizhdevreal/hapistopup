@@ -1,0 +1,93 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background: linear-gradient(180deg,#050816,#081225,#0b1731);
+  color:white;
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+.container{
+  padding:16px;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:16px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(255,255,255,0.08);
+  position:sticky;
+  top:0;
+}
+
+.logo{
+  font-size:22px;
+  font-weight:bold;
+  color:#4da6ff;
+}
+
+.btn{
+  background:#1677ff;
+  color:white;
+  padding:10px 16px;
+  border:none;
+  border-radius:12px;
+}
+
+.hero{
+  margin-top:20px;
+  padding:20px;
+  border-radius:20px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+}
+
+.hero h1{
+  font-size:28px;
+}
+
+.hero p{
+  opacity:.8;
+  margin-top:8px;
+}
+
+.grid{
+  margin-top:20px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+
+.card{
+  padding:16px;
+  border-radius:18px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,.08);
+}
+
+.card h3{
+  font-size:16px;
+}
+
+.card p{
+  font-size:13px;
+  opacity:.7;
+  margin-top:6px;
+ }
+  
+.input{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  border:none;
+  border-radius:12px;
+  background:rgba(255,255,255,.08);
+  color:white;
+}
